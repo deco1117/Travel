@@ -331,6 +331,7 @@ template {
 
 header {
   max-width: 100%;
+  background: rgba(255, 255, 255, 0.02);
 }
 header .nav {
   max-width: 1366px;
@@ -474,9 +475,20 @@ header .nav__list--item-link:hover {
 .one__categories {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 72px;
 }
 .one__categories--card {
   text-align: center;
+  cursor: pointer;
+  padding: 16px;
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+  border: none;
+}
+.one__categories--card:hover {
+  border-bottom: 1px solid #FFFFFF;
+  opacity: 1;
+  color: #FFFFFF;
 }
 .one__categories--card-name {
   font-style: normal;
@@ -484,10 +496,6 @@ header .nav__list--item-link:hover {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  opacity: 0.4;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .datepicker-toggle {
@@ -530,6 +538,59 @@ header .nav__list--item-link:hover {
   margin: 0;
   padding: 0;
   cursor: pointer;
+}
+
+.two {
+  margin-bottom: 80px;
+}
+.two__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.two__fotos {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.58%);
+  display: flex;
+  gap: 24px;
+  position: relative;
+  margin-right: -205px;
+}
+.two__fotos--card:nth-child(1) {
+  background-image: url(/images/Ball.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.two__fotos--card:nth-child(2) {
+  background-image: url(/images/kerry.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.two__fotos--card:nth-child(3) {
+  background-image: url(/images/sydney.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.two__fotos--card:nth-child(4) {
+  background-image: url(/images/paris.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.two__fotos--card-text {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  padding-top: 146px;
+  padding-left: 24px;
 }
 
 body {

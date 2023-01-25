@@ -107,9 +107,21 @@
     &__categories{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 72px;
 
         &--card{
             text-align: center;
+            cursor: pointer;
+            padding: 16px;
+            opacity: 0.4;
+            border: 1px solid #FFFFFF;
+            border: none;
+
+            &:hover {
+                border-bottom: 1px solid #FFFFFF;
+                opacity: 1;
+                color: #FFFFFF;
+            }
 
             &-name{
                 font-style: normal;
@@ -117,10 +129,6 @@
                 font-size: 16px;
                 line-height: 18px;
                 color: #ffffff;
-                opacity: 0.4;
-                flex: none;
-                order: 1;
-                flex-grow: 0; 
             }
         }
     }
@@ -169,3 +177,71 @@
     padding: 0;
     cursor: pointer;
 }
+
+.two{
+
+    margin-bottom: 80px;
+    
+    &__title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+
+    &__fotos{
+
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.58%);
+        display: flex;
+        gap: 24px;
+        position: relative;
+        margin-right: -205px;
+
+        &--card{
+            
+           
+            &:nth-child(1){
+                background-image: url(/images/Ball.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+            &:nth-child(2){
+                background-image: url(/images/kerry.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+            &:nth-child(3){
+                background-image: url(/images/sydney.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+            &:nth-child(4){
+                background-image: url(/images/paris.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+
+            &-text{
+                font-family: 'Netflix Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 31px;
+                color: #FFFFFF;
+                padding-top: 146px;
+                padding-left: 24px;
+
+            }
+    
+    
+            }
+        }
+        }
+
+       
