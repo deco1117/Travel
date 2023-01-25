@@ -1,0 +1,14 @@
+@charset "utf-8";
+@import "./normalise";
+@import "./general";
+@import "./visually-hidden";
+@import "./blocks/all";
+@import "./mixin";
+@import "./variables";
+
+body {
+    background-image: url(../images/header\ fon.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}

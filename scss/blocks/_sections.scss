@@ -1,0 +1,171 @@
+.one {
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 83px;
+        color: #ffffff;
+        max-width: 759px;
+    }
+
+    &__search {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(16px);
+        border-radius: 16px;
+        padding: 9px 16px 9px 52px;
+        margin-bottom: 40px;
+
+        &--forma {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+
+            &-input{
+
+                opacity: 0;
+            }
+
+            &-label {
+                align-items: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFFFFF;
+                opacity: 0.7;
+                margin-right: 58px;
+            }
+
+            &-text {
+                align-items: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFFFFF;
+                opacity: 0.7;
+                position: relative;
+
+
+                &::before {
+                    content: url(/images/lupa.svg);
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    left: -25px;
+                    top: 0px;
+                    cursor: pointer;
+                }
+            }
+
+            &-room {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFFFFF;
+                opacity: 0.7;
+                position: relative;
+
+                &::before{
+                    content: url(/images/man.svg);
+                    width: 18px;
+                    height: 18px;
+                    position: absolute;
+                    left: -26px;
+                }
+            }
+
+            &-btn{
+                background: #FFFFFF;
+                border-radius: 32px;
+                padding: 12px 46px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                color: #2659C3;
+                opacity: 0.7;
+                border: none;
+                cursor: pointer;
+            }
+
+        }
+    }
+    &__cat{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+
+    &__categories{
+        display: flex;
+        justify-content: space-between;
+
+        &--card{
+            text-align: center;
+
+            &-name{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #ffffff;
+                opacity: 0.4;
+                flex: none;
+                order: 1;
+                flex-grow: 0; 
+            }
+        }
+    }
+}
+
+
+
+.datepicker-toggle {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    margin-right: 10px;
+}
+
+.datepicker-toggle-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/calendar.svg);
+}
+
+.datepicker-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.datepicker-input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}

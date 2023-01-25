@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#" class="nav__logo">
+                trxvl.
+            </a>
+
+            <ul class="nav__list">
+                <li class="nav__list--item"><a href="#" class="nav__list--item-link">Home</a></li>
+                <li class="nav__list--item"><a href="#" class="nav__list--item-link">Stays</a></li>
+                <li class="nav__list--item"><a href="#" class="nav__list--item-link">Flights</a></li>
+                <li class="nav__list--item"><a href="#" class="nav__list--item-link">Packages</a></li>
+                <li class="nav__list--item"><a href="#" class="nav__list--item-link" id="bold">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="one container">
+        <h1 class="one__title">
+            The whole world <br> awaits. 
+        </h1>
+        <div class="one__search">
+            <form class="one__search--forma" action="https://echo.htmlacademy.ru/" method="POST">
+                <label for="text" class="one__search--forma-text">Search destinations, hotels</label>
+                <input class="one__search--forma-input" type="text" id="text" name="Name hotels">
+
+                <span class="datepicker-toggle">
+                    <span class="datepicker-toggle-button"></span>
+                    <input type="date" class="datepicker-input" id="in" name="Check in">
+                </span>
+                <label class="one__search--forma-label" for="in">Check in</label>
+                <span class="datepicker-toggle">
+                    <span class="datepicker-toggle-button"></span>
+                    <input type="date" class="datepicker-input" id="out" name="Check out">
+                </span>
+                <label class="one__search--forma-label" for="out">Check out</label>
+                <div>
+                    <h5 class="one__search--forma-room">1 room, 2 adults</h5>
+                </div>
+                <button type="submit" class="one__search--forma-btn">Search</button>
+            </form>
+        </div>
+        <h2 class="one__cat">
+            Top categories
+        </h2>
+        <div class="one__categories">
+            <div class="one__categories--card">
+                <img src="./images/Beaches.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Beaches</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Deserts.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Deserts</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Mountains.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Mountains</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Iconic Cities.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Iconic Cities</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Houseboats.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Houseboats</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Countryside.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Countryside</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Camping.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Camping</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Castles.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Castles</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Skiing.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Skiing</h6>
+            </div>
+            <div class="one__categories--card">
+                <img src="./images/Tropical.svg" alt="icon" width="32" height="32">
+                <h6 class="one__categories--card-name">Tropical</h6>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
