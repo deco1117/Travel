@@ -329,6 +329,12 @@ template {
   padding: 0 20px;
 }
 
+.container-cards {
+  max-width: 1366px;
+  padding-left: 140px;
+  margin: 0 auto;
+}
+
 header {
   max-width: 100%;
   background: rgba(255, 255, 255, 0.02);
@@ -541,7 +547,9 @@ header .nav__list--item-link:hover {
 }
 
 .two {
+  overflow: hidden;
   margin-bottom: 80px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.58%);
 }
 .two__title {
   font-style: normal;
@@ -552,11 +560,13 @@ header .nav__list--item-link:hover {
   margin-bottom: 40px;
 }
 .two__fotos {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.58%);
   display: flex;
   gap: 24px;
   position: relative;
   margin-right: -205px;
+}
+.two__fotos--card {
+  width: 1312px;
 }
 .two__fotos--card:nth-child(1) {
   background-image: url(/images/Ball.jpg);
@@ -591,6 +601,245 @@ header .nav__list--item-link:hover {
   color: #FFFFFF;
   padding-top: 146px;
   padding-left: 24px;
+}
+
+.three {
+  overflow: hidden;
+}
+.three__title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+.three__cards {
+  display: flex;
+  margin-bottom: 80px;
+  gap: 24px;
+  margin-right: -200px;
+}
+.three__cards--card {
+  display: flex;
+  align-items: center;
+  padding: 12px 23px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+  border-radius: 16px;
+  gap: 20px;
+  width: 686px;
+}
+.three__cards--card-pic {
+  border-radius: 15px;
+}
+.three__cards--card-right-sp {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 4px;
+}
+.three__cards--card-right-text {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 16px;
+}
+.three__cards--card-right-title {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.three__cards--card-right-btn {
+  padding: 16px 32px;
+  gap: 8px;
+  width: 140px;
+  height: 52px;
+  background: #2659C3;
+  border-radius: 32px;
+  border: none;
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.thefour {
+  overflow: hidden;
+  margin-bottom: 72px;
+}
+.thefour__title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.thefour__fotos {
+  display: flex;
+  gap: 24px;
+  position: relative;
+  margin-right: -205px;
+}
+.thefour__fotos--card {
+  width: 1312px;
+}
+.thefour__fotos--card:nth-child(1) {
+  background-image: url(/images/hotel.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.thefour__fotos--card:nth-child(2) {
+  background-image: url(/images/Apartments.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.thefour__fotos--card:nth-child(3) {
+  background-image: url(/images/Resorts.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.thefour__fotos--card:nth-child(4) {
+  background-image: url(/images/Villas.jpg);
+  width: 310px;
+  height: 200px;
+  border-radius: 5px;
+}
+.thefour__fotos--card-text {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  padding-top: 146px;
+  padding-left: 24px;
+}
+
+.fifth__card {
+  padding: 80px 229px 122px 81px;
+  background-image: url(/images/map.jpg);
+  width: 1127px;
+  height: 395px;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+.fifth__card--title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.fifth__card--text {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+
+.sixth {
+  overflow-x: hidden;
+  margin-bottom: 140px;
+}
+.sixth__title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.sixth__wrapper {
+  display: flex;
+  gap: 16px;
+  margin-right: -205px;
+}
+.sixth__wrapper--cards {
+  min-width: 342px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+  border-radius: 16px 16px 8px 16px;
+}
+.sixth__wrapper--cards-card {
+  margin-bottom: 24px;
+}
+.sixth__wrapper--cards-title {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.sixth__wrapper--cards-text {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.seventh {
+  background-image: url(/images/fon\ fhone.jpg);
+  width: 1366px;
+  height: 546px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.seventh__in {
+  display: flex;
+  padding-top: 60px;
+}
+.seventh__in--end .end__title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.seventh__in--end .end__text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
 }
 
 body {

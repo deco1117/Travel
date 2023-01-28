@@ -1,0 +1,5 @@
+@mixin displayStyle($jc, $ai, $fd,){ 
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $fd;
+}

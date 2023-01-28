@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">  
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <div class="nav">
             <a href="#" class="nav__logo">
@@ -23,95 +24,218 @@
             </ul>
         </div>
     </header>
-    <section class="one container">
-        <h1 class="one__title">
-            The whole world <br> awaits. 
-        </h1>
-        <div class="one__search">
-            <form class="one__search--forma" action="https://echo.htmlacademy.ru/" method="POST">
-                <label for="text" class="one__search--forma-text">Search destinations, hotels</label>
-                <input class="one__search--forma-input" type="text" id="text" name="Name hotels">
-
-                <span class="datepicker-toggle">
-                    <span class="datepicker-toggle-button"></span>
-                    <input type="date" class="datepicker-input" id="in" name="Check in">
-                </span>
-                <label class="one__search--forma-label" for="in">Check in</label>
-                <span class="datepicker-toggle">
-                    <span class="datepicker-toggle-button"></span>
-                    <input type="date" class="datepicker-input" id="out" name="Check out">
-                </span>
-                <label class="one__search--forma-label" for="out">Check out</label>
-                <div>
-                    <h5 class="one__search--forma-room">1 room, 2 adults</h5>
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION ONE -->
+        <section class="one container">
+            <h1 class="one__title">
+                The whole world <br> awaits. 
+            </h1>
+            <div class="one__search">
+                <form class="one__search--forma" action="https://echo.htmlacademy.ru/" method="POST">
+                    <label for="text" class="one__search--forma-text">Search destinations, hotels</label>
+                    <input class="one__search--forma-input" type="text" id="text" name="Name hotels">
+    
+                    <span class="datepicker-toggle">
+                        <span class="datepicker-toggle-button"></span>
+                        <input type="date" class="datepicker-input" id="in" name="Check in">
+                    </span>
+                    <label class="one__search--forma-label" for="in">Check in</label>
+                    <span class="datepicker-toggle">
+                        <span class="datepicker-toggle-button"></span>
+                        <input type="date" class="datepicker-input" id="out" name="Check out">
+                    </span>
+                    <label class="one__search--forma-label" for="out">Check out</label>
+                    <div>
+                        <h5 class="one__search--forma-room">1 room, 2 adults</h5>
+                    </div>
+                    <button type="submit" class="one__search--forma-btn">Search</button>
+                </form>
+            </div>
+            <h2 class="one__cat">
+                Top categories
+            </h2>
+            <div class="one__categories">
+                <div class="one__categories--card">
+                    <img src="./images/Beaches.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Beaches</h6>
                 </div>
-                <button type="submit" class="one__search--forma-btn">Search</button>
-            </form>
-        </div>
-        <h2 class="one__cat">
-            Top categories
-        </h2>
-        <div class="one__categories">
-            <div class="one__categories--card">
-                <img src="./images/Beaches.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Beaches</h6>
+                <div class="one__categories--card">
+                    <img src="./images/Deserts.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Deserts</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Mountains.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Mountains</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Iconic Cities.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Iconic Cities</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Houseboats.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Houseboats</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Countryside.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Countryside</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Camping.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Camping</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Castles.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Castles</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Skiing.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Skiing</h6>
+                </div>
+                <div class="one__categories--card">
+                    <img src="./images/Tropical.svg" alt="icon" width="32" height="32">
+                    <h6 class="one__categories--card-name">Tropical</h6>
+                </div>
             </div>
-            <div class="one__categories--card">
-                <img src="./images/Deserts.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Deserts</h6>
+        </section>
+        <!-- SECTION TWO -->
+        <section class="two container-cards">
+            <h2 class="two__title">
+                Top Vacation Destinations
+            </h2>
+            <div class="two__fotos">
+                <div class="two__fotos--card">
+                    <h6 class="two__fotos--card-text">Bali, Indonesia</h6>
+                </div>
+                <div class="two__fotos--card">
+                    <h6 class="two__fotos--card-text">Kerry, Ireland</h6>
+                </div>
+                <div class="two__fotos--card">
+                    <h6 class="two__fotos--card-text">Sydney, Australia</h6>
+                </div>
+                <div class="two__fotos--card">
+                    <h6 class="two__fotos--card-text">Paris, France</h6>
+                </div>
             </div>
-            <div class="one__categories--card">
-                <img src="./images/Mountains.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Mountains</h6>
+        </section>
+        <!-- SECTION THREE -->
+        <section class="three container-cards">
+            <div class="three__title">
+                Offers
             </div>
-            <div class="one__categories--card">
-                <img src="./images/Iconic Cities.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Iconic Cities</h6>
+            <div class="three__cards">
+                <div class="three__cards--card">
+                    <img src="./images/fly.jpg" alt="fly" width="317" height="211"  class="three__cards--card-pic">
+                    <div class="three__cards--card-right">
+                        <span class="three__cards--card-right-sp">Domestic Flights</span>
+                        <h2 class="three__cards--card-right-title">
+                            Huge savings on flight with trxvl.
+                        </h2>
+                        <h5 class="three__cards--card-right-text">Book domestic flights starting @ just ₹1459</h5>
+                        <button class="three__cards--card-right-btn">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
+                <div class="three__cards--card">
+                    <img src="./images/fly.jpg" alt="fly" width="317" height="211"  class="three__cards--card-pic">
+                    <div class="three__cards--card-right">
+                        <span class="three__cards--card-right-sp">Domestic Flights</span>
+                        <h2 class="three__cards--card-right-title">
+                            Huge savings on flight with trxvl.
+                        </h2>
+                        <h5 class="three__cards--card-right-text">Book domestic flights starting @ just ₹1459</h5>
+                        <button class="three__cards--card-right-btn">
+                            Book Now
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="one__categories--card">
-                <img src="./images/Houseboats.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Houseboats</h6>
+        </section>
+        <!-- SECTION THEFOUR -->
+        <section class="thefour container-cards">
+            <h2 class="thefour__title">
+                Top Vacation Destinations
+            </h2>
+            <div class="thefour__fotos">
+                <div class="thefour__fotos--card">
+                    <h6 class="thefour__fotos--card-text">Hotels</h6>
+                </div>
+                <div class="thefour__fotos--card">
+                    <h6 class="thefour__fotos--card-text">Apartments</h6>
+                </div>
+                <div class="thefour__fotos--card">
+                    <h6 class="thefour__fotos--card-text">Resorts</h6>
+                </div>
+                <div class="thefour__fotos--card">
+                    <h6 class="thefour__fotos--card-text">Villas</h6>
+                </div>
             </div>
-            <div class="one__categories--card">
-                <img src="./images/Countryside.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Countryside</h6>
+        </section>
+        <!-- SECTION FIFTH -->
+        <section class="fifth container">
+            <div class="fifth__card">
+                <h6 class="fifth__card--title">Plan your trip with travel expert</h6>
+                <p class="fifth__card--text">Our professional advisors can craft your perfect itinerary</p>
             </div>
-            <div class="one__categories--card">
-                <img src="./images/Camping.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Camping</h6>
+        </section>
+        <!-- SECTION SIXTH -->
+        <section class="sixth container-cards">
+                    <h2 class="sixth__title">
+                        Connect with other travelers in our community
+                    </h2>
+                    <div class="sixth__wrapper">
+                        <div class="sixth__wrapper--cards">
+                            <div class="sixth__wrapper--cards-card">
+                                <img width="310" height="200" src="./images/india.jpg" alt="india">
+                            </div>
+                            <h6 class="sixth__wrapper--cards-title">India</h6>
+                            <p class="sixth__wrapper--cards-text">Travel community</p>
+                            <p class="sixth__wrapper--cards-text">155,073 travelers</p>
+                        </div>
+                        <div class="sixth__wrapper--cards">
+                            <div class="sixth__wrapper--cards-card">
+                                <img width="310" height="200" src="./images/talk.jpg" alt="india">
+                            </div>
+                            <h6 class="sixth__wrapper--cards-title">Travel Talk</h6>
+                            <p class="sixth__wrapper--cards-text">Travel community</p>
+                            <p class="sixth__wrapper--cards-text">155,073 travelers</p>
+                        </div>
+                        <div class="sixth__wrapper--cards">
+                            <div class="sixth__wrapper--cards-card">
+                                <img width="310" height="200" src="./images/beach.jpg" alt="india">
+                            </div>
+                            <h6 class="sixth__wrapper--cards-title">Beach</h6>
+                            <p class="sixth__wrapper--cards-text">Travel community</p>
+                            <p class="sixth__wrapper--cards-text">155,073 travelers</p>
+                        </div>
+                        <div class="sixth__wrapper--cards">
+                            <div class="sixth__wrapper--cards-card">
+                                <img width="310" height="200" src="./images/mountains.jpg" alt="india">
+                            </div>
+                            <h6 class="sixth__wrapper--cards-title">Mountains</h6>
+                            <p class="sixth__wrapper--cards-text">Travel community</p>
+                            <p class="sixth__wrapper--cards-text">155,073 travelers</p>
+                        </div>
+                    </div>
+        </section>
+        <!-- SECTION SEVENTH -->
+        <section class="seventh">
+            <div class="seventh__in container">
+                <div class="seventh__in--start"></div>
+                    <img  src="./images/iPhone 13 Mockup.png" alt="i pone">
+
+                <div class="seventh__in--end">
+                    <h2 class="end__title">Your all-in-one travel app.</h2>
+                    <p class="end__text">Book flights, hotels, trains & rental cars anywhere in the world in just seconds. Get real-time flight updates, travel info, exclusive deals, and 30% more Trip Coins only on the app!</p>
+                    <div class="end__buttom">
+                        <div class="end__buttom--mobile">
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="one__categories--card">
-                <img src="./images/Castles.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Castles</h6>
-            </div>
-            <div class="one__categories--card">
-                <img src="./images/Skiing.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Skiing</h6>
-            </div>
-            <div class="one__categories--card">
-                <img src="./images/Tropical.svg" alt="icon" width="32" height="32">
-                <h6 class="one__categories--card-name">Tropical</h6>
-            </div>
-        </div>
-    </section>
-    <section class="two container">
-        <h2 class="two__title">
-            Top Vacation Destinations
-        </h2>
-        <div class="two__fotos">
-            <div class="two__fotos--card">
-                <h6 class="two__fotos--card-text">Bali, Indonesia</h6>
-            </div>
-            <div class="two__fotos--card">
-                <h6 class="two__fotos--card-text">Kerry, Ireland</h6>
-            </div>
-            <div class="two__fotos--card">
-                <h6 class="two__fotos--card-text">Sydney, Australia</h6>
-            </div>
-            <div class="two__fotos--card">
-                <h6 class="two__fotos--card-text">Paris, France</h6>
-            </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </main>
+</body> 
 </html>

@@ -1,9 +1,9 @@
 @charset "utf-8";
 @import "./normalise";
-@import "./general";
+@import "./general.scss";
 @import "./visually-hidden";
-@import "./blocks/all";
-@import "./mixin";
+@import "./blocks/all.scss";
+@import "./mixin.scss";
 @import "./variables";
 
 body {

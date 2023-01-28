@@ -179,8 +179,9 @@
 }
 
 .two{
-
+    overflow: hidden;
     margin-bottom: 80px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.58%);
     
     &__title{
         font-style: normal;
@@ -192,15 +193,13 @@
     }
 
     &__fotos{
-
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 89.58%);
         display: flex;
         gap: 24px;
         position: relative;
         margin-right: -205px;
 
         &--card{
-            
+            width: 1312px;
            
             &:nth-child(1){
                 background-image: url(/images/Ball.jpg);
@@ -244,4 +243,286 @@
         }
         }
 
-       
+.three{
+    overflow: hidden;
+    &__title{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;  
+    }
+
+    &__cards{
+        display: flex;
+        margin-bottom: 80px;
+        gap: 24px;
+        margin-right: -200px;
+        
+        
+
+        &--card{
+            display: flex;
+            align-items: center;
+            padding: 12px 23px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+            border-radius: 16px;
+            gap: 20px;
+            width: 686px;
+            
+
+            &-pic{
+                border-radius: 15px;
+            }
+
+            &-right{
+
+                &-sp{
+                    font-family: 'Netflix Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    opacity: 0.5;
+                    margin-bottom: 4px;
+                }
+
+                &-text{
+                    font-family: 'Netflix Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    opacity: 0.5;
+                    margin-bottom: 16px;
+                }
+
+                &-title{
+                    font-family: 'Netflix Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 31px;
+                    color: #000000;
+                    margin-bottom: 16px;
+                }
+
+
+                &-btn{
+                    padding: 16px 32px;
+                    gap: 8px;
+                    width: 140px;
+                    height: 52px;
+                    background: #2659C3;
+                    border-radius: 32px;
+                    border: none;
+                    font-family: 'Netflix Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+.thefour{
+    overflow: hidden;
+    margin-bottom: 72px;
+    
+    &__title{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+        margin-bottom: 40px;
+    }
+
+    &__fotos{
+        display: flex;
+        gap: 24px;
+        position: relative;
+        margin-right: -205px;
+
+        &--card{
+            width: 1312px;
+           
+            &:nth-child(1){
+                background-image: url(/images/hotel.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+            &:nth-child(2){
+                background-image: url(/images/Apartments.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+            &:nth-child(3){
+                background-image: url(/images/Resorts.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+            &:nth-child(4){
+                background-image: url(/images/Villas.jpg);
+                width: 310px;
+                height: 200px;
+                border-radius: 5px;
+            }
+
+            &-text{
+                font-family: 'Netflix Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 31px;
+                color: #FFFFFF;
+                padding-top: 146px;
+                padding-left: 24px;
+
+            }
+    
+    
+            }
+        }
+}
+
+.fifth{
+    
+    &__card{
+        padding: 80px 229px 122px 81px;
+        background-image: url(/images/map.jpg);
+        width: 1127px;
+        height: 395px;
+        border-radius: 15px;
+        margin-bottom: 80px;
+
+        &--title{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 64px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        &--text{
+            font-family: 'Netflix Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 41px;
+            color: #FFFFFF;
+        }
+    }
+    
+}
+
+.sixth{
+    overflow-x: hidden;
+    margin-bottom: 140px;
+    
+    &__title{
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+        margin-bottom: 32px;
+    }
+
+    &__wrapper{
+        display: flex;
+        gap: 16px;
+        margin-right: -205px;
+
+        &--cards{
+            min-width: 342px;
+            display: flex;
+            flex-direction: column;
+            padding: 16px;
+            background: #ffffff;
+            box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+            border-radius: 16px 16px 8px 16px;
+
+            &-card{
+                margin-bottom: 24px;
+                }
+
+                &-title{
+                    font-family: 'Netflix Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 31px;
+                    color: #000000;
+                    margin-bottom: 8px;
+                }
+
+                &-text{
+                    font-family: 'Netflix Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    opacity: 0.5;
+                    margin-bottom: 8px;
+                }
+        }
+
+
+        }
+}
+
+.seventh{
+    background-image:url(/images/fon\ fhone.jpg);
+    width: 1366px;
+    height: 546px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    &__in{
+        display: flex;
+        padding-top:60px ;
+
+        &--end{
+
+            .end__title{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 55px;
+                color: #FFFFFF;
+                margin-bottom: 24px;
+            }
+
+            .end__text{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+
+
