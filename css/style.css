@@ -814,10 +814,11 @@ header .nav__list--item-link:hover {
 
 .seventh {
   background-image: url(/images/fon\ fhone.jpg);
-  width: 1366px;
-  height: 546px;
+  height: 543px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .seventh__in {
   display: flex;
@@ -984,7 +985,9 @@ header .nav__list--item-link:hover {
 }
 
 body {
+  max-height: 841px;
   background-image: url(../images/header\ fon.png);
   background-repeat: no-repeat;
   background-position: top;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */

@@ -491,10 +491,11 @@
 
 .seventh{
     background-image:url(/images/fon\ fhone.jpg);
-    width: 1366px;
-    height: 546px;
+    height: 543px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     &__in{
         display: flex;
